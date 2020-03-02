@@ -1,62 +1,111 @@
 
-def using_push(array, violet)
-    array.push("violet")
+# def using_push(array, violet)
+#     array.push("violet")
+# end
+
+
+# def using_unshift(array, violet)
+#     array.unshift("Staten Island")
+# end
+
+
+# def using_pop(array)
+#     array.pop
+# end
+
+
+# def pop_with_args(array)
+#     array.pop(2)
+# end
+
+
+# def using_shift(array)
+#     array.shift 
+# end
+
+
+# def shift_with_args(array)
+#     array.shift(2)
+# end
+
+
+# def using_concat(array1, array2)
+#     array1.concat(array2)
+# end
+
+
+# def using_insert(array, element)
+#     array.insert(4, "Python")
+# end
+
+
+# def using_uniq(array)
+#     array.uniq
+# end
+
+
+# def using_flatten(array)
+#     array.flatten
+# end
+
+
+# def using_delete(array, string)
+#     array.delete("Steven")
+# end
+
+
+# def using_delete_at(array, number)
+#     array.delete_at(2)
+# end
+
+
+
+
+
+def using_push(arr, string)
+    arr.push(string)
 end
 
-
-def using_unshift(array, violet)
-    array.unshift("Staten Island")
+def using_unshift(arr, string)
+    arr.unshift(string)
 end
 
-
-def using_pop(array)
-    array.pop
+def using_pop(arr)
+    arr.pop
 end
 
-
-def pop_with_args(array)
-    array.pop(2)
+def pop_with_args(arr)
+    arr.pop(2)
 end
 
-
-def using_shift(array)
-    array.shift 
+def using_shift(arr)
+    bob = arr.shift
 end
 
-
-def shift_with_args(array)
-    array.shift(2)
+def shift_with_args(arr)
+    bob = arr.shift(2)
 end
 
-
-def using_concat(array1, array2)
-    array1.concat(array2)
+def using_concat(arr1, arr2)
+    arr1.concat(arr2)
 end
 
-
-def using_insert(array, element)
-    array.insert(4, "Python")
+def using_insert(arr, element)
+    arr.insert(4, element)
 end
 
-
-def using_uniq(array)
-    array.uniq
+def using_uniq(arr)
+    arr.uniq
 end
 
-
-def using_flatten(array)
-    array.flatten
+def using_flatten(arr)
+    arr.flatten
 end
 
-
-def using_delete(array, string)
-    array.delete("Steven")
+def using_delete(arr, string)
+    arr.delete(string)
 end
 
-
-def using_delete_at(array, number)
-    array.delete_at(2)
+def using_delete_at(arr, integer)
+    arr.delete_at(integer)
 end
-
-
-
