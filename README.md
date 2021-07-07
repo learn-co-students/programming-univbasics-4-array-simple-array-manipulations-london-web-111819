@@ -1,3 +1,4 @@
+
 # Introduction To Simple Array Manipulations
 
 ## Learning Goals
